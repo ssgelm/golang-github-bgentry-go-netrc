@@ -1,11 +1,7 @@
 #!/usr/bin/make -f
 
 BUILD_DIR := obj-$(DEB_BUILD_GNU_TYPE)
+export DH_GOLANG_INSTALL_EXTRA = netrc/examples
 
 %:
 	dh $@ --buildsystem=golang --with=golang
-
-override_dh_auto_test:
-	cp -R netrc/examples $(BUILD_DIR)/src/github.com/bgentry/go-netrc/netrc/
-	dh_auto_test
-	rm -rf $(BUILD_DIR)/src/github.com/bgentry/go-netrc/netrc/examples
