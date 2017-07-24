@@ -1,4 +1,4 @@
-golang-github-bgentry-go-netrc (0.0~git20140422.0.9fd32a8-1) UNRELEASED; urgency=medium
+golang-github-bgentry-go-netrc (0.0~git20140422.0.9fd32a8-1) unstable; urgency=medium
 
   * Initial release (Closes: #869517)
 
