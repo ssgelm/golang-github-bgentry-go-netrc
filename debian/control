@@ -8,8 +8,8 @@ Build-Depends: debhelper (>= 10),
                golang-any
 Standards-Version: 3.9.8
 Homepage: https://github.com/bgentry/go-netrc
-Vcs-Browser: https://github.com/ssgelm/golang-github-bgentry-go-netrc
-Vcs-Git: https://github.com/ssgelm/golang-github-bgentry-go-netrc
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-bgentry-go-netrc.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-bgentry-go-netrc.git
 XS-Go-Import-Path: github.com/bgentry/go-netrc
 
 Package: golang-github-bgentry-go-netrc-dev
